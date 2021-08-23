@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>
-            Figuras geométricas.
+            Calculando figuras geométricas.
         </h1>
         <p>Este es el primer taller del curso práctico de JavaScript</p>
     </header>
@@ -25,6 +25,51 @@
                 Calcular el perímetro
             </button>
             <button type="button" onclick="calcularAreaCuadrado()">
+                Calcular el área
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el área y perímetro de un triángulo</h2>
+        <h3> Escribe cuanto mide cada lado de tu triángulo:</h3>
+        <form action="">
+            <label for="InputLado1">
+              Lado1:
+            </label>
+            <input id="InputLado1" type="number">
+            <label for="InputLado2">
+                Lado2:
+              </label>
+              <input id="InputLado2" type="number">
+              <label for="InputBase">
+                Base:
+              </label>
+              <input id="InputBase" type="number">
+              <label for="InputAltura">
+                Altura:
+              </label>
+              <input id="InputAltura" type="number">
+            <button type="button" onclick="calcularPerimetroTriangulo()">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaTriangulo()">
+                Calcular el área
+            </button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Calcula el área y perímetro de un círculo</h2>
+        <form action="">
+            <label for="InputCirculo">
+              Escribe cuanto mide cada lado de tu circulo:
+            </label>
+            <input id="InputCirculo" type="number">
+            <button type="button" onclick="calcularPerimetroCirculo()">
+                Calcular el perímetro
+            </button>
+            <button type="button" onclick="calcularAreaCirculo()">
                 Calcular el área
             </button>
         </form>
