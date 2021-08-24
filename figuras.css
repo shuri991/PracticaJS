@@ -1,0 +1,49 @@
+
+body{
+    background: rgb(124, 190, 124);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: rgb(102, 161, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+.content1, .content2{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 20px;
+    
+}
+.content-square, .content-triangle,
+.content-isosceles, .content-circle{
+    background: white;
+    font-size: 1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+     
+}
+
+.content-square{
+ width: 350px;
+ height: 300px;
+}
+.content-triangle{
+    width: 400px;
+    height: 400px;
+    align-content: center;
+}
+.content-isosceles{
+    width: 350px;
+    height: 300px;
+}
+.content-circle{
+    width: 350px;
+    height: 300px;
+}

@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras geométricas / Curso Práctico de JavaScript en Platzi.</title>
+    <link rel="stylesheet" href="figuras.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>
             Calculando figuras geométricas.
         </h1>
         <p>Este es el primer taller del curso práctico de JavaScript</p>
     </header>
 
-    <section>
+<section class="content1">
+    <section class="content-square">
         <h2>Calcula el área y perímetro de un cuadrado</h2>
         <form action="">
             <label for="InputCuadrado">
@@ -30,7 +32,7 @@
         </form>
     </section>
 
-    <section>
+    <section class="content-triangle">
         <h2>Calcula el área y perímetro de un triángulo</h2>
         <h3> Escribe cuanto mide cada lado de tu triángulo:</h3>
         <form action="">
@@ -58,8 +60,27 @@
             </button>
         </form>
     </section>
+</section>
+<section class="content2">
+    <section class="content-isosceles">
+        <h2>Calcular Triangulo Isoceles</h2>
+        <h3> Escribe cuanto mide cada lado de tu triángulo:</h3>
+        <form action="">
+            <label for="InputAlturaH">
+              Altura:
+            </label>
+            <input id="InputAlturaH" type="number">
+            <label for="InputBaseH">
+                Base:
+              </label>
+              <input id="InputBaseH" type="number">
+            <button type="button" onclick="calcularTrianguloIsoceles()">
+                Calcular
+            </button>
+        </form>
+    </section>
 
-    <section>
+    <section class="content-circle">
         <h2>Calcula el área y perímetro de un círculo</h2>
         <form action="">
             <label for="InputCirculo">
@@ -74,7 +95,7 @@
             </button>
         </form>
     </section>
-
+</section>
 
     <script src="./figuras.js"></script>
 </body>
